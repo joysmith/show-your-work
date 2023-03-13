@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./Projectdeck.css";
 import Project from "./Project";
-import projectdata from "./projectdata";
+import projectdata from "../models/projectdata";
+
 export class Projectdeck extends Component {
   render() {
     return (
