@@ -7,7 +7,7 @@ export class Projectdeck extends Component {
   render() {
     return (
       <div className="Projectdex">
-        <h1>Joy portfolio</h1>
+        <h1>{this.props.title}</h1>
 
         <div className="Projectdex-cards">
           {projectdata.map((p, i) => (
