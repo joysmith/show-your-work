@@ -1,0 +1,13 @@
+.Projectdex {
+  text-align: center;
+}
+.Projectdex-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+a {
+  color: rgb(4, 4, 4);
+  text-decoration: none;
+}
