@@ -6,23 +6,17 @@ import projectdata from "../models/projectdata";
 export class Projectdeck extends Component {
   render() {
     return (
-      <>
-        <a href="https://www.w3schools.com" target="_blank">
-          {" "}
-          <div className="Projectdex">
-            <div className="Projectdex-cards">
-              {projectdata.map((p, i) => (
-                <Project
-                  id={p.id}
-                  name={p.name}
-                  type={p.type}
-                  image={p.image}
-                />
-              ))}
-            </div>
-          </div>
-        </a>
-      </>
+      <div className="Projectdex">
+        <h1>Joy portfolio</h1>
+
+        <div className="Projectdex-cards">
+          {projectdata.map((p, i) => (
+            <a href="https://www.w3schools.com" target="_blank">
+              <Project id={p.id} name={p.name} type={p.type} image={p.image} />
+            </a>
+          ))}
+        </div>
+      </div>
     );
   }
 }
