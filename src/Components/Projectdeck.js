@@ -12,7 +12,8 @@ export class Projectdeck extends Component {
         <div className="Projectdex-cards">
           {projectdata.map((p, i) => (
             <a
-              href="https://www.w3schools.com"
+              key={p.id}
+              href={p.publish}
               target="_blank"
               rel="noreferrer noopener"
             >

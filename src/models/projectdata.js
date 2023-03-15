@@ -4,6 +4,7 @@ const projects = [
     name: "Charmander",
     type: "fire",
     image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+    publish: "https://joysmith.github.io/Anime/",
   },
   {
     id: 7,
