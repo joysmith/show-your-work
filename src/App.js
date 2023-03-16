@@ -4,7 +4,6 @@ function App() {
   return (
     <div className="App">
       <Projectdeck title="React" />
-      <Projectdeck title="Games" />
     </div>
   );
 }
