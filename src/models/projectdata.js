@@ -12,45 +12,54 @@ const projects = [
     name: "Tin dog",
     type: "Landing page",
     image:
-      "https://github.com/joysmith/Host-image/blob/main/show%20your%20work/tindog.jpg?raw=true",
+      "https://github.com/joysmith/Host-image/blob/main/show%20your%20work/tindog.png?raw=true",
     publish: "https://joysmith.github.io/Tin-dog/",
   },
   {
     id: 11,
-    name: "Metapod",
-    type: "bug",
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+    name: "ink profile",
+    type: "profile",
+    image:
+      "https://github.com/joysmith/Host-image/blob/main/show%20your%20work/thomas.png?raw=true",
+    publish: "https://joysmith.github.io/profile-opensera/",
   },
   {
     id: 12,
-    name: "Butterfree",
-    type: "flying",
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+    name: "Ball roll profile",
+    type: "profile",
+    image:
+      "https://github.com/joysmith/Host-image/blob/main/show%20your%20work/japanese.png?raw=true",
+    publish: "https://joysmith.github.io/profile-opensera-ball-roll/",
   },
   {
     id: 25,
-    name: "Pikachu",
-    type: "electric",
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+    name: "simulation",
+    type: "physic engine",
+    image:
+      "https://github.com/joysmith/Host-image/blob/main/show%20your%20work/P5.js_icon.svg.png?raw=true",
+    publish: "https://joysmith.github.io/physic-engine-ch1-vector/",
   },
-  {
-    id: 39,
-    name: "Jigglypuff",
-    type: "normal",
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
-  },
-  {
-    id: 94,
-    name: "Gengar",
-    type: "poison",
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
-  },
-  {
-    id: 133,
-    name: "Eevee",
-    type: "normal",
-    image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
-  },
+
+  // {
+  //   id: 39,
+  //   name: "Jigglypuff",
+  //   type: "normal",
+  //   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+  // },
+
+  // {
+  //   id: 94,
+  //   name: "Gengar",
+  //   type: "poison",
+  //   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+  // },
+
+  // {
+  //   id: 133,
+  //   name: "Eevee",
+  //   type: "normal",
+  //   image: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png",
+  // },
 ];
 
 export default projects;

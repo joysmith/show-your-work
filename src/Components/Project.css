@@ -35,3 +35,10 @@
   transform: scale(1.25);
   opacity: 0.7;
 }
+
+/* image show modified- eliminated pixresize and circle crop */
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
