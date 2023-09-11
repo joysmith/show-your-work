@@ -46,7 +46,7 @@ const projects = [
     type: "react",
     image:
       "https://github.com/joysmith/Host-image/blob/main/show%20your%20work/pizza_menu.png?raw=true",
-    publish: "https://gregarious-melomakarona-b2b639.netlify.app/",
+    publish: "https://italianpizzamenu.netlify.app/",
   },
 
   // {
