@@ -39,6 +39,15 @@ const projects = [
       "https://github.com/joysmith/Host-image/blob/main/show%20your%20work/P5.js_icon.svg.png?raw=true",
     publish: "https://joysmith.github.io/physic-engine-ch1-vector/",
   },
+  ,
+  {
+    id: 25,
+    name: "pizza menu",
+    type: "react",
+    image:
+      "https://github.com/joysmith/Host-image/blob/main/show%20your%20work/pizza_menu.png?raw=true",
+    publish: "https://gregarious-melomakarona-b2b639.netlify.app/",
+  },
 
   // {
   //   id: 39,
